@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Return to Last Tab",
+    "version": "1.0",
+    "description": "Returns to the last active tab when closing a tab.",
+    "permissions": ["tabs"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
